@@ -37,8 +37,8 @@ if(inputArr.length == 3){
     // This will read from excel file and index 0 is for 1st id.
     // if you have multiple id's in excel file then this will help you to take that ID & password by just entering index number into it.
     // default it will be at 0
-    userName = xlData[12].userName;
-    password = xlData[12].password;
+    userName = xlData[0].userName;
+    password = xlData[0].password;
     target = xlTargetAll;
 
     // Initilizing the exp funtion with three parementers 
